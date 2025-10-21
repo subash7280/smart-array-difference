@@ -1,5 +1,5 @@
 /**
- * smart-array-diff
+ * smart-array-difference
  * Compare two arrays and return added, removed, and updated items.
  *
  * @param {Array} oldArr - Original array

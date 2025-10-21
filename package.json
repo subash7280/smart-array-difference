@@ -1,5 +1,5 @@
 {
-    "name": "smart-array-diff",
+    "name": "smart-array-difference",
     "version": "1.0.0",
     "description": "🧩 Smart array comparison utility — find added, removed, and updated items easily.",
     "type": "module",

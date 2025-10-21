@@ -13,23 +13,23 @@ const color = {
     gray: (s) => `\x1b[90m${s}\x1b[0m`,
 };
 
-console.log(color.cyan(color.bold("🧩 smart-array-diff CLI")));
+console.log(color.cyan(color.bold("🧩 smart-array-difference CLI")));
 console.log(color.gray("Compare two arrays (from JSON files or inline JSON)."));
 console.log("--------------------------------------------------------\n");
 
 /**
  * Usage:
- *   smart-array-diff old.json new.json
- *   smart-array-diff '[1,2,3]' '[2,3,4]'
- *   smart-array-diff old.json new.json id
+ *   smart-array-difference old.json new.json
+ *   smart-array-difference '[1,2,3]' '[2,3,4]'
+ *   smart-array-difference old.json new.json id
  */
 
 const [, , oldInput, newInput, keyArg] = process?.argv;
 
 if (!oldInput || !newInput) {
     console.log(color.yellow("⚠️  Usage:"));
-    console.log(color.green("   smart-array-diff old.json new.json [key]"));
-    console.log(color.green("   smart-array-diff '[1,2,3]' '[2,3,4]'"));
+    console.log(color.green("   smart-array-difference old.json new.json [key]"));
+    console.log(color.green("   smart-array-difference '[1,2,3]' '[2,3,4]'"));
     process?.exit(1);
 };
 

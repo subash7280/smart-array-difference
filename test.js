@@ -1,6 +1,6 @@
 import { smartArrayDiff } from "./index.js";
 
-console.log("🧩 Running smart-array-diff tests...\n");
+console.log("🧩 Running smart-array-difference tests...\n");
 
 // Primitive array test
 const diff1 = smartArrayDiff([1, 2, 3], [2, 3, 4]);
