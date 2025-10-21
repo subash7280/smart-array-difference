@@ -8,11 +8,15 @@
     "keywords": [
         "array",
         "diff",
+        "difference",
         "compare",
         "data",
         "utility",
         "sync"
     ],
+    "bin": {
+        "smart-array-difference": "./cli.js"
+    },
     "author": "Subash Eswaramoorthi",
     "license": "MIT"
 }
