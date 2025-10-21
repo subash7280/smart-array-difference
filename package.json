@@ -1,0 +1,18 @@
+{
+    "name": "smart-array-diff",
+    "version": "1.0.0",
+    "description": "🧩 Smart array comparison utility — find added, removed, and updated items easily.",
+    "type": "module",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "keywords": [
+        "array",
+        "diff",
+        "compare",
+        "data",
+        "utility",
+        "sync"
+    ],
+    "author": "Subash Eswaramoorthi",
+    "license": "MIT"
+}
